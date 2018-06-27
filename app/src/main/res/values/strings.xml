@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">CamLocation</string>
+    <string name="title_activity_maps">Maps</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="mb_button">Button</string>
+    <string name="title_activity_maps_test">Map</string>
+    <string name="title_activity_maps_r">Map</string>
+    <string name="title_activity_maps_activityt">Map</string>
+    <string name="title_activity_regisration">RegisrationActivity</string>
+
+</resources>

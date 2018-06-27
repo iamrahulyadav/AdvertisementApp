@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        app:cardCornerRadius="2dp"
+        app:cardElevation="2dp"
+        app:cardPreventCornerOverlap="false"
+        app:contentPadding="10dp">
+
+        <com.shinelw.library.ColorArcProgressBar
+            android:id="@+id/bar1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            app:back_color="@android:color/darker_gray"
+            app:back_width="10dp"
+
+            app:front_color1="#FF30FFB0"
+            app:front_color2="#FF40FFB0"
+            app:front_color3="#FF50FFB0"
+            app:front_width="10dp"
+            app:is_need_content="true"
+            app:is_need_title="true"
+            app:is_need_unit="true"
+            app:max_value="100"
+            app:string_title="Completion"
+            app:string_unit="unit"
+            app:total_engle="270" />
+
+
+    </android.support.v7.widget.CardView>
+
+</FrameLayout>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/parent_RL"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lime">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:paddingBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Advertisement Details"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="30dp"/>
+
+
+
+        <EditText
+            android:id="@+id/campaign_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:hint="Campaign Name"
+            android:maxLines="1"
+            android:textColorHint="@color/grey"
+            android:backgroundTint="@color/white" />
+
+        <EditText
+            android:id="@+id/brand_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:hint="Brand Name"
+            android:maxLines="1"
+            android:textColorHint="@color/grey"
+            android:backgroundTint="@color/white" />
+        <EditText
+            android:id="@+id/sub_brand_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:hint="Sub Brand"
+            android:maxLines="1"
+            android:textColorHint="@color/grey"
+            android:backgroundTint="@color/white" />
+        <EditText
+            android:id="@+id/vedor_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:hint="Vedor Name"
+            android:maxLines="1"
+            android:textColorHint="@color/grey"
+            android:backgroundTint="@color/white" />
+
+        <EditText
+            android:id="@+id/catory_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:hint="Campaign Cagteogry"
+            android:maxLines="1"
+            android:textColorHint="@color/grey"
+            android:backgroundTint="@color/white" />
+
+
+        <EditText
+            android:id="@+id/et_compaign_detail"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:textColor="@color/black"
+            android:hint="Detail"
+            android:maxLines="1"
+            android:inputType="text"
+            android:gravity="top"
+            android:textColorHint="@color/grey"
+            android:backgroundTint="@color/white" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/dialog_fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/fab_margin"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:clickable="true"
+            android:src="@drawable/cloudbig"
+            android:layout_gravity="right"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

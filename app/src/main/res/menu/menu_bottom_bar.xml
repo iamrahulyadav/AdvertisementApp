@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/action_all"
+        android:title="ALL"
+        android:icon="@drawable/all" />
+    <item android:id="@+id/actions_bqs"
+        android:title="BQS"
+        android:icon="@drawable/bqs" />
+    <item android:id="@+id/action_boarding"
+        android:title="HOARDING"
+        android:icon="@drawable/board_pin" />
+    <item android:id="@+id/action_bus"
+        android:title="BUS"
+        android:icon="@drawable/bus" />
+    <item android:id="@+id/action_rickshaw"
+        android:icon="@drawable/rickshaw"
+        android:title="RICKSHAW" />
+</menu>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/parent_RL"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lime">
+
+
+    <ImageView
+        android:id="@+id/back_arrow_Img"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/arrowback" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:paddingBottom="50dp"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Advertisement Details"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:layout_marginBottom="30dp"/>
+
+
+
+        <EditText
+            android:id="@+id/campaign_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:hint="Campaign Name"
+            android:maxLines="1"
+            android:textColorHint="@color/grey"
+            android:backgroundTint="@color/white" />
+
+        <EditText
+            android:id="@+id/company_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:hint="Company Name"
+            android:maxLines="1"
+            android:textColorHint="@color/grey"
+            android:backgroundTint="@color/white" />
+
+        <EditText
+            android:id="@+id/starting_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:hint="Starting Date"
+            android:maxLines="1"
+            android:inputType="text"
+            android:focusable="false"
+            android:textColorHint="@color/grey"
+            android:backgroundTint="@color/white" />
+
+        <EditText
+            android:id="@+id/ending_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:hint="Ending Date"
+            android:maxLines="1"
+            android:focusable="false"
+            android:inputType="number"
+            android:textColorHint="@color/grey"
+            android:backgroundTint="@color/white" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/next_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/circle_icon"
+            android:layout_centerInParent="true"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:src="@drawable/arrowright"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

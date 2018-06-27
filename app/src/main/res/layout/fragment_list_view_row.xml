@@ -1,0 +1,108 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardView"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="end"
+    android:layout_marginBottom="7dp"
+    android:layout_marginTop="7dp"
+    android:gravity="end"
+    app:cardElevation="@dimen/activity_vertical_margin">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:gravity="end"
+        android:padding="8dp">
+
+        <ImageView
+            android:src="@drawable/logo"
+            android:id="@+id/imageView"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="7dp" />
+        <TextView
+            android:id="@+id/brandname"
+            android:layout_width="match_parent"
+            android:layout_toRightOf="@+id/imageView"
+
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="@dimen/textmargin"
+            android:background="@drawable/underline"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/catagory"
+            android:layout_toRightOf="@+id/imageView"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/brandname"
+            android:layout_marginTop="@dimen/textmargin"
+            android:background="@drawable/underline"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/agency"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/imageView"
+            android:layout_marginTop="@dimen/textmargin"
+            android:background="@drawable/underline"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/size"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/agency"
+            android:layout_marginTop="@dimen/textmargin"
+            android:background="@drawable/underline"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/vendor"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/size"
+            android:layout_marginTop="@dimen/textmargin"
+            android:background="@drawable/underline"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/rating"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/vendor"
+            android:layout_marginTop="@dimen/textmargin"
+            android:background="@drawable/underline"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/rating"
+            android:layout_marginTop="@dimen/textmargin"
+            android:background="@drawable/underline"
+            android:textSize="12sp" />
+
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

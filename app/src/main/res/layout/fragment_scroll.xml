@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.github.ksoichiro.android.observablescrollview.ObservableScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:discrollve="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include layout="@layout/material_view_pager_placeholder" />
+
+        <com.flavienlaurent.discrollview.lib.DiscrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.flavienlaurent.discrollview.lib.DiscrollViewContent
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/cardMarginVertical"
+                    android:layout_marginLeft="@dimen/cardMarginHorizontal"
+                    android:layout_marginRight="@dimen/cardMarginHorizontal"
+                    android:layout_marginTop="@dimen/cardMarginVertical"
+                    app:cardCornerRadius="2dp"
+                    app:cardElevation="2dp"
+                    app:cardPreventCornerOverlap="false"
+                    app:contentPadding="10dp">
+
+                    <com.github.mikephil.charting.charts.HorizontalBarChart
+                        android:id="@+id/chartbar"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        discrollve:discrollve_alpha="true"
+                        discrollve:discrollve_translation="fromLeft|fromBottom" />
+                </android.support.v7.widget.CardView>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="600dp"
+                    discrollve:discrollve_alpha="true"
+                    discrollve:discrollve_threshold="0.3" />
+
+
+            </com.flavienlaurent.discrollview.lib.DiscrollViewContent>
+        </com.flavienlaurent.discrollview.lib.DiscrollView>
+    </LinearLayout>
+
+</com.github.ksoichiro.android.observablescrollview.ObservableScrollView>
+
